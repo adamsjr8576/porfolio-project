@@ -13,24 +13,26 @@
   background-size: cover;
   background-position: center;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 .app-landing-name {
-  width: 90%;
+  width: 30%;
+  min-width: 200px;
+  height: 250px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   font-size: 5em;
   margin: 0;
   margin-top: 15px;
 }
 
 .triangle-container {
-  width: 90%;
-  height: 400px;
+  width: 70%;
+  height: 350px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,61 +42,88 @@
 .app-landing-logo1 {
   height: 200px;
   position: absolute;
-  top: 40%;
-  left: 5%;
+  top: 20%;
+  left: 10%;
 }
 
 .app-landing-logo2 {
   height: 200px;
   position: absolute;
-  top: 40%;
-  left: 15%;
+  top: 20%;
+  left: 20%;
 }
 
 .app-landing-logo3 {
   height: 200px;
   position: absolute;
-  top: 40%;
-  left: 25%;
+  top: 20%;
+  left: 30%;
 }
 
 .app-landing-logo4 {
   height: 200px;
   position: absolute;
-  top: 40%;
-  left: 35%;
+  top: 20%;
+  left: 40%;
 }
 
 .app-landing-logo5 {
   height: 200px;
   position: absolute;
-  top: 40%;
-  left: 45%;
+  top: 20%;
+  left: 50%;
 }
 
 .app-landing-logo6 {
   height: 200px;
   position: absolute;
-  top: 40%;
-  left: 55%;
+  top: 20%;
+  left: 60%;
 }
 
 .app-landing-logo7 {
   height: 200px;
   position: absolute;
-  top: 40%;
-  left: 65%;
+  top: 20%;
+  left: 70%;
 }
 
 .app-landing-title {
   font-size: 3em;
   margin: 45px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
 }
 
-.app-landing-button {
-  width: 20%;
+.arrow-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-landing-arrow {
+  height: 75px;
   margin: 15px 0;
-  font-size: 2em;
+  cursor: pointer;
+}
+
+.app-landing-arrow:hover {
+  transform: scale(1.05);
+}
+
+.app-landing-arrow:active {
+  transform: scale(.95);
+}
+
+.app-navigation-page {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 @media (prefers-reduced-motion: no-preference) {
