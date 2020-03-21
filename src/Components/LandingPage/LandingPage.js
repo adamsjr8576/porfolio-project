@@ -7,7 +7,7 @@ export const LandingPage = () => {
   return (
     <main className="App">
       <div className="app-landing-page" >
-        <h1 className="app-landing-name">John Adams</h1>
+        <h1 className="app-landing-name"><span>John</span> <span>Adams</span></h1>
         <img className="app-landing-logo" src={images.triangleLogo} />
         <h3 className="app-landing-title">Software Developer</h3>
         <button className="app-landing-button">down arrow</button>
