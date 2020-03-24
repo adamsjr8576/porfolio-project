@@ -6,7 +6,7 @@ import { LandingPage } from '../LandingPage/LandingPage';
 
 const App = () => {
   return (
-    <div>
+    <div className="parent-div">
       <Route exact path='/' render={() => {
         return <LandingPage />
       }}

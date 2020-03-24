@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: space-between;
   width: 100%;
 }
 
@@ -124,6 +125,26 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app-navigation-section {
+  height: 49%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.line {
+  height: 2%;
+  width: 100%;
+  background-color: grey;
+}
+
+.app-navigation-title {
+  color: white;
+  font-size: 2em;
 }
 
 @media (prefers-reduced-motion: no-preference) {
